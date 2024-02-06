@@ -17,19 +17,19 @@ A Minecraft server ping library in Golang
 go-mcping requires a Go version with Modules support and uses import versioning. So please make sure to initialize a Go module before installing go-mcping.
 
 ```bash
-go get github.com/iverly/go-mcping
+go get github.com/Andrmist/go-mcping
 ```
 
 Import:
 ```go
-import "github.com/iverly/go-mcping"
+import "github.com/Andrmist/go-mcping"
 ```
 
 ## Quickstart
 
 ```go
 import (
-	"github.com/iverly/go-mcping/mcping"
+	"github.com/Andrmist/go-mcping/mcping"
 )
 
 func main() {

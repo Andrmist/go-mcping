@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/iverly/go-mcping/api/types"
-	"github.com/iverly/go-mcping/dns"
-	"github.com/iverly/go-mcping/latency"
+	"github.com/Andrmist/go-mcping/api/types"
+	"github.com/Andrmist/go-mcping/dns"
+	"github.com/Andrmist/go-mcping/latency"
 )
 
 type Pinger struct {

@@ -2,12 +2,12 @@ package mcping
 
 import (
 	"encoding/json"
-	"github.com/iverly/go-mcping/api/types"
+	"github.com/Andrmist/go-mcping/api/types"
 	"github.com/jmoiron/jsonq"
 	"strings"
 )
 
-func decodeResponse(response string) *types.PingResponse  {
+func decodeResponse(response string) *types.PingResponse {
 	d := map[string]interface{}{}
 	dec := json.NewDecoder(strings.NewReader(response))
 	dec.Decode(&d)
